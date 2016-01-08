@@ -1,9 +1,10 @@
+name             "tmpreaper"
 maintainer       "CustomInk, LLC"
 maintainer_email "svargo@customink.com"
 license          "All rights reserved"
 description      "Installs/Configures tmpreaper"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.1.3"
+version          "0.1.4"
 
 recipe "tmpreaper", "Main tmpreaper configuration"
 recipe "tmpreaper::schedule", "Adds cron job for tmpreaper"

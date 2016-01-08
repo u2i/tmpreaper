@@ -1,6 +1,10 @@
 Changelog
 =========
 
+### v0.1.4
+
+* Add name attribute to `metadata.rb` (required by Berkshelf)
+
 ### v0.1.2
 
 * Added .travis.yml
